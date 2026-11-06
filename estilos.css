@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  font-family: Georgia, serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: red;
+}
+
+img {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.personagem {
+  background-color: burgundy;
+  padding: 10px;
+  margin-bottom: 15px;
+  list-style: none;
+}
+/*Eu não estava a perceber como faria para ligar o CSS ao Html. Escrevi todas as regras do ficheiro CSS mas não conseguia ver uma lógica exata de resolver este problema até que me deparei que um dos slides do site de apoio continha a solução e que tinha de ligar tudo ao Head do HTML com a tag "<link rel="stylesheet" href="estilos.css">".
+/*O meu erro mais comum era sempre o de guardar tudo, por vezes, entrava ao site e via que o que tinha feito não estava lá integrado para o seu melhor funcionamento e tinha sempre de voltar ao note pad++ para guardar tudo.
+/*Pelo o que percebi na implementação, o href é como se fosse uma referência a uma ligação externa.
